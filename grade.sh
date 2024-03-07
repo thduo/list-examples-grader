@@ -25,6 +25,12 @@ then
     echo "Compilation Error. Double check your code bugs or syntax"
 fi 
 
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+
+
+
+
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > output.txt
 
 
 
